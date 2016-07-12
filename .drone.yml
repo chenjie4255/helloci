@@ -1,11 +1,11 @@
 build:
-    image:golang:1.6
-    command:
-    - pushd cmd/helloci
-    - go get 
-    - go build 
-    - go test
-    - popd
+  image:golang:1.6
+  command:
+  - pushd cmd/helloci
+  - go get 
+  - go build 
+  - go test
+  - popd
 
 publish:
   coverage:
